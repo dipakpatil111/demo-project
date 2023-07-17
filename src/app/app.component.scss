@@ -1,0 +1,42 @@
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .card{
+        h1{
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 10px;
+        }
+
+        .custom-button{
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // width: 40px;
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+    }
+
+    .todo-list{
+       .title{
+        border-bottom: 1px solid gray;
+        h4{
+            color: green;
+            text-align: center;
+        }
+       }
+        
+    }
+}
+
+.table-tad {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
